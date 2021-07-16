@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*-------------------------
+    初期値
+-------------------------*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    color: ;
+    font-size: ;
+    line-height: 2;
+    font-feature-settings: "palt";
+    text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: .15em;
+}
+
+a:link {
+    color: ;
+    font-weight: bold;
+}
+
+a:visited {
+    color: ;
+}
+
+:hover {
+    transition: .4s ease-in;
+}
+
+a:hover,
+a:active {
+    color: ;
+}
+
+em {
+    font-style: normal;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-of-type(even) {
+    background-color: ;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    th,
+    td {
+        padding: 10px;
+    }
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea,
+select {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"],
+    textarea,
+    select {
+        width: 100%;
+    }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 10px 0 30px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.jBounceIn {
+    transition: .6s cubic-bezier(.47, 2.02, .31, -0.36);
+}
+
+.jBounceIn:hover,
+.jbounceIn:focus,
+.jbounceIn:active {
+    transform: scale(1.1);
+}
+
+.jBounceUp {
+    transition: margin .3s ease-out;
+}
+
+.jBounceUp:hover {
+    animation: jBounceUp-frames 1s;
+}
+
+@keyframes jBounceUp-frames {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+}
