@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
 @import url("../css/phone.css") screen and (max‐width: 480px);
+
 /*-------------------------
     初期値
 -------------------------*/
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
 body {
     color: #333;
     font-size: 1.6rem;
@@ -21,6 +24,7 @@ a {
     text-decoration: none;
     letter-spacing: .15em;
 }
+
 a:link {
     color: #422;
     font-weight: bold;
@@ -34,7 +38,9 @@ a:visited {
     transition: .4s ease-in;
 }
 
-a:hover, a:active {
+=======
+a:hover,
+a:active {
     color: #933;
 }
 
@@ -42,7 +48,8 @@ em {
     font-style: normal;
 }
 
-ol, ul {
+ol,
+ul {
     list-style-type: none;
     padding-left: 0;
 }
@@ -83,12 +90,21 @@ tr:nth-of-type(odd) {
 }
 
 th, td {
+=======
+tr:nth-of-type(even) {
+    background-color: ;
+}
+
+th,
+td {
+>>>>>>> 2b5607d8c533da3d3432664667a002c5b0edff11
     border: 1px solid #ccc;
     padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    th, td {
+    th,
+    td {
         padding: 10px;
     }
 }
@@ -296,6 +312,26 @@ th {
 
 @media screen and (max-width: 768px) {
     .top-main {
+=======
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea,
+select {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"],
+    textarea,
+    select {
+>>>>>>> 2b5607d8c533da3d3432664667a002c5b0edff11
         width: 100%;
     }
 }
@@ -518,4 +554,51 @@ a[href$="#other"] {
 .contact td[colspan="2"] input[type="submit"] {
     letter-spacing: 2em;
     text-indent: 2em;
+=======
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 10px 0 30px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.jBounceIn {
+    transition: .6s cubic-bezier(.47, 2.02, .31, -0.36);
+}
+
+.jBounceIn:hover,
+.jbounceIn:focus,
+.jbounceIn:active {
+    transform: scale(1.1);
+}
+
+.jBounceUp {
+    transition: margin .3s ease-out;
+}
+
+.jBounceUp:hover {
+    animation: jBounceUp-frames 1s;
+}
+
+@keyframes jBounceUp-frames {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+>>>>>>> 2b5607d8c533da3d3432664667a002c5b0edff11
 }
