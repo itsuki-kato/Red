@@ -899,10 +899,10 @@ a[href$="#other"] {
 }
 
 .menus>ul li a {
-    padding: ;
-    border-top: ;
-    border-right: ;
-    border-left: ;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
     border-radius: 3px 3px 0 0;
 }
 
@@ -914,7 +914,7 @@ a[href$="#other"] {
 }
 
 .menu h3::first-line {
-    font-size: ;
+    font-size: 2.4rem;
 }
 
 .menu {
