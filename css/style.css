@@ -38,7 +38,6 @@ a:visited {
     transition: .4s ease-in;
 }
 
-=======
 a:hover,
 a:active {
     color: #933;
@@ -89,15 +88,12 @@ tr:nth-of-type(odd) {
     background-color: #fbfbfb;
 }
 
-th, td {
-=======
 tr:nth-of-type(even) {
-    background-color: ;
+    background-color: #fbfbfb;
 }
 
 th,
 td {
->>>>>>> 2b5607d8c533da3d3432664667a002c5b0edff11
     border: 1px solid #ccc;
     padding: 20px;
 }
@@ -311,8 +307,6 @@ th {
 }
 
 @media screen and (max-width: 768px) {
-    .top-main {
-=======
 input[type="text"],
 input[type="email"],
 input[type="submit"],
@@ -322,18 +316,6 @@ select {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-}
-
-@media screen and (max-width: 768px) {
-
-    input[type="text"],
-    input[type="email"],
-    input[type="submit"],
-    textarea,
-    select {
->>>>>>> 2b5607d8c533da3d3432664667a002c5b0edff11
-        width: 100%;
-    }
 }
 
 .top-side {
@@ -554,10 +536,6 @@ a[href$="#other"] {
 .contact td[colspan="2"] input[type="submit"] {
     letter-spacing: 2em;
     text-indent: 2em;
-=======
-input[type="radio"],
-input[type="checkbox"] {
-    margin: 0 10px 0 30px;
 }
 
 .clearfix::after {
@@ -600,5 +578,6 @@ input[type="checkbox"] {
     80% {
         transform: translateY(-10px);
     }
->>>>>>> 2b5607d8c533da3d3432664667a002c5b0edff11
+
+}
 }
