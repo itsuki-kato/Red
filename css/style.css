@@ -716,9 +716,9 @@ a[href$="#other"] {
     position: absolute;
     top: 0;
     left: -220px;
-    padding: ;
+    padding: 100px 0 0 220px;
     height: 640px;
-    color: ;
+    color: #eee;
     line-height: 2.4;
     letter-spacing: .3em;
     text-shadow: 0 0 5px #422, 0 0 10px #000;
@@ -729,7 +729,7 @@ a[href$="#other"] {
 @media screen and (max-width: 768px) {
     .top-catch {
         left: 0;
-        padding: ;
+        padding: 80vw 0;
         height: 1280px;
         line-height: 2;
         background-position: center top;
@@ -774,8 +774,8 @@ a[href$="#other"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 3px #ccc;
-    padding: ;
-    margin-bottom: 3;
+    padding: 20px 30px 20px 400px;
+    margin-bottom: 30px;
     height: 300px;
 }
 
@@ -784,7 +784,7 @@ a[href$="#other"] {
     .top-time,
     .top-rank {
         height: 680px;
-        padding: ;
+        padding: 400px 20px 20px;
         background-position: center top;
     }
 }
@@ -867,9 +867,9 @@ a[href$="#other"] {
 
 .top-news dd:first-of-type::after {
     content: 'NEW!';
-    background-color: ;
+    background-color: #900;
     color: white;
-    font-size: ;
+    font-size: 10px;
     font-weight: bold;
     border-radius: 3px;
     padding: 3px;
@@ -884,7 +884,7 @@ a[href$="#other"] {
 .movie>h2,
 .map>h2,
 .contact>h2 {
-    margin: ;
+    margin: 50px 0 20px;
     border-bottom: 2px dotted #422;
 }
 
